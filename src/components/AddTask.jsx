@@ -14,8 +14,8 @@ export default function AddTask({ setTasklist }) {
      })
      .then(results => results.json())
      .then(data => {
-        setTasklist(data) ;
-        setTask('');
+        setTasklist(data) 
+        setTask('')
     })
      .catch(console.error)
     }
